@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: brightness(0.9);
+  margin: -1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #e80909;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
